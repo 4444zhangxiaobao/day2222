@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+header {
+  width: 100%;
+  height: 4.5rem;
+  background: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+header .left {
+  margin-left: 30px;
+}
+
+header .right {
+  margin-right: 30px;
+}
+
+section {
+  width: 80%;
+  flex: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 80%;
+  background: #fff;
+  border-radius: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+section .logo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+section p {
+  text-align: center;
+  margin-top: 6px;
+}
+
+section .text {
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+section .text img {
+  margin-right: 5%;
+}
+
+section .text input {
+  border: 0;
+}
+
+section .pwd {
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+section .pwd input {
+  border: 0;
+}
+
+section .pwd img {
+  margin-right: 5%;
+}
+
+section .btn {
+  text-align: center;
+}
+
+section .btn .btns {
+  margin-top: 7%;
+  width: 40%;
+  height: 50px;
+  border: 0;
+  background: #058d2e;
+  border-radius: 10px;
+  color: #fff;
+}
